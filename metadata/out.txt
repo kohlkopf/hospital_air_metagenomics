@@ -1,0 +1,2770 @@
+<Test-sra>
+  <Ngs>
+    <Latest>
+      <ncbi-vdb version="2.9.6"/>
+      <ngs-sdk version="2.9.6"/>
+    </Latest>
+    <LibManager.properties/>
+    <ncbi-vdb>
+    </ncbi-vdb>
+    <ngs-sdk>
+    </ngs-sdk>
+  </Ngs>
+  <Version>
+NCBI SRA Toolkit release version: 2.8.1.<br/>
+Latest available NCBI SRA Toolkit release version: 2.9.6.<br/>
+A new version of SRA Toolkit is available for download from
+"https://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software".
+  </Version>
+  <Os>Linux hickory.sgc.loc 3.10.0-693.11.6.el7.x86_64 #1 SMP Thu Jan 4 01:06:37 UTC 2018 x86_64</Os>
+  <Ascp>
+ascp_locate = RC(rcNS,rcFile,rcCopying,rcFile,rcNotFound)
+    <MaxRate>1000m</MaxRate>
+    <Disabled>false</Disabled>
+  </Ascp>
+  <Network>
+    <KNSManager GetHTTPProxyEnabled="false">
+    </KNSManager>
+    <UserAgent>linux64 sra-toolkit test-sra.2.8.1</UserAgent>
+    <DnsEndpoint domain="www.ncbi.nlm.nih.gov" port="80" address="ipv4: 130.14.29.110 : 80" time="21 ms"/>
+    <DnsEndpoint domain="www.ncbi.nlm.nih.gov" port="443" address="ipv4: 130.14.29.110 : 443" time="19 ms"/>
+    <KNSManagerMakeRequest url="https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current.version" time="156 ms"/>
+  </Network>
+<Object>
+
+SRR390728 NotFound - Database <br/>
+<Resolve>
+  <Query name="SRR390728">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/sra3/SRR/000381/SRR390728 193,615,465 Database <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/sra/SRR390728.sra NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/sra/SRR390728.sra.cache File 193,615,662 Dir <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/sra3/SRR/000381/SRR390728 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/sra/SRR390728.sra NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/sra/SRR390728.sra.cache File 193,615,662 Dir <br/>
+
+      VResolverQuery(SRR390728, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/sra3/SRR/000381/SRR390728 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/sra/SRR390728.sra NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/sra/SRR390728.sra.cache File 193,615,662 Dir <br/>
+
+    <Timer>
+      VResolverQuery(SRR390728, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcPath,rcNotFound)<br/>
+
+      VResolverQuery(SRR390728, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/sra3/SRR/000381/SRR390728 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/sra/SRR390728.sra NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/sra/SRR390728.sra.cache File 193,615,662 Dir <br/>
+
+      <Time time="216 ms"/>
+    </Timer>
+      VResolverQuery(SRR390728, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/sra3/SRR/000381/SRR390728 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/sra/SRR390728.sra NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/sra/SRR390728.sra.cache File 193,615,662 Dir <br/>
+
+    <Timer>
+      VResolverQuery(SRR390728, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcPath,rcNotFound)<br/>
+
+      VResolverQuery(SRR390728, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/sra3/SRR/000381/SRR390728 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/sra/SRR390728.sra NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/sra/SRR390728.sra.cache File 193,615,662 Dir <br/>
+
+      <Time time="221 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+  <Network>
+    <Cgi>
+    <Response time="220 ms">#1.2
+SRR390728||SRR390728|193615465|2012-02-15T20:41:48Z|87f651f8de64b3cc1f53690c329589c1||https://sra-download.ncbi.nlm.nih.gov/traces/sra3/SRR/000381/SRR390728|200|ok
+</Response>
+    </Cgi>
+    <Ranges>
+      <Get protocol="http">
+        <Request host="sra-download.ncbi.nlm.nih.gov">
+GET /srapub/SRR390728 HTTP/1.1
+Host: sra-download.ncbi.nlm.nih.gov
+Accept: */*
+Range: bytes=0-4095
+User-Agent: linux64 sra-toolkit test-sra.2.8.1
+
+        </Request>
+        <Response>
+HTTP/1.1 206 Partial Content
+Connection: keep-alive
+Content-Length: 4096
+Content-Range: bytes 0-4095/193615465
+Content-Type: application/octet-stream
+Date: Thu, 28 Mar 2019 17:57:47 GMT
+Last-Modified: Wed, 15 Feb 2012 20:41:50 GMT
+Server: nginx
+        </Response>
+      </Get>
+      <Get protocol="https">
+        <Request host="sra-download.ncbi.nlm.nih.gov">
+GET /srapub/SRR390728 HTTP/1.1
+Host: sra-download.ncbi.nlm.nih.gov
+Accept: */*
+Range: bytes=0-4095
+User-Agent: linux64 sra-toolkit test-sra.2.8.1
+
+        </Request>
+        <Response>
+HTTP/1.1 206 Partial Content
+Connection: keep-alive
+Content-Length: 4096
+Content-Range: bytes 0-4095/193615465
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: application/octet-stream
+Date: Thu, 28 Mar 2019 17:57:47 GMT
+Last-Modified: Wed, 15 Feb 2012 20:41:50 GMT
+Referrer-Policy: origin-when-cross-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+        </Response>
+      </Get>
+      <Head protocol="http">
+        <Request host="sra-download.ncbi.nlm.nih.gov">
+HEAD /srapub/SRR390728 HTTP/1.1
+Host: sra-download.ncbi.nlm.nih.gov
+Accept: */*
+User-Agent: linux64 sra-toolkit test-sra.2.8.1
+
+        </Request>
+        <Response>
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Length: 193615465
+Content-Type: application/octet-stream
+Date: Thu, 28 Mar 2019 17:57:48 GMT
+Last-Modified: Wed, 15 Feb 2012 20:41:50 GMT
+Server: nginx
+        </Response>
+      </Head>
+      <Head protocol="https">
+        <Request host="sra-download.ncbi.nlm.nih.gov">
+HEAD /srapub/SRR390728 HTTP/1.1
+Host: sra-download.ncbi.nlm.nih.gov
+Accept: */*
+User-Agent: linux64 sra-toolkit test-sra.2.8.1
+
+        </Request>
+        <Response>
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Length: 193615465
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: application/octet-stream
+Date: Thu, 28 Mar 2019 17:57:48 GMT
+Last-Modified: Wed, 15 Feb 2012 20:41:50 GMT
+Referrer-Policy: origin-when-cross-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+        </Response>
+      </Head>
+    </Ranges>
+  </Network>
+<Dependencies>
+VDBDependenciesCount(missing)=25
+<Dependency>
+      1	seqId=GPC_000000394.1,name=5,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 44,553,876<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="GPC_000000394.1">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 44,553,876 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000394.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+      VResolverQuery(GPC_000000394.1, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000394.1, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000394.1, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+      VResolverQuery(GPC_000000394.1, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000394.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000394.1, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000394.1, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000394.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+      <Time time="195 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      2	seqId=GPC_000000395.1,name=Y,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 5,813,303<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+<Resolve>
+  <Query name="GPC_000000395.1">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 5,813,303 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000395.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+      VResolverQuery(GPC_000000395.1, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000395.1, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000395.1, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+      <Time time="212 ms"/>
+    </Timer>
+      VResolverQuery(GPC_000000395.1, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000395.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000395.1, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000395.1, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000395.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      3	seqId=NC_000001.9,name=1,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 56,567,632<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+<Resolve>
+  <Query name="NC_000001.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 56,567,632 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000001.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+      VResolverQuery(NC_000001.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000001.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000001.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+      VResolverQuery(NC_000001.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000001.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000001.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000001.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000001.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      4	seqId=NC_000002.10,name=2,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 59,697,822<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+<Resolve>
+  <Query name="NC_000002.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 59,697,822 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000002.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+      VResolverQuery(NC_000002.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000002.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000002.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+      <Time time="269 ms"/>
+    </Timer>
+      VResolverQuery(NC_000002.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000002.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000002.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000002.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000002.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      5	seqId=NC_000003.10,name=3,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 48,873,426<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+<Resolve>
+  <Query name="NC_000003.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 48,873,426 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000003.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+      VResolverQuery(NC_000003.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000003.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000003.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+      <Time time="197 ms"/>
+    </Timer>
+      VResolverQuery(NC_000003.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000003.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000003.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000003.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000003.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+      <Time time="216 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      6	seqId=NC_000004.10,name=4,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 47,038,034<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000004.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 47,038,034 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000004.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+      VResolverQuery(NC_000004.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000004.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000004.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+      VResolverQuery(NC_000004.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000004.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000004.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000004.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000004.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      7	seqId=NC_000006.10,name=6,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 41,999,521<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000006.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 41,999,521 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000006.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+      VResolverQuery(NC_000006.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000006.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000006.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+      <Time time="195 ms"/>
+    </Timer>
+      VResolverQuery(NC_000006.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000006.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000006.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000006.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000006.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      8	seqId=NC_000007.12,name=7,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 38,915,617<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000007.12">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 38,915,617 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000007.12 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+      VResolverQuery(NC_000007.12, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000007.12, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000007.12, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+      <Time time="211 ms"/>
+    </Timer>
+      VResolverQuery(NC_000007.12, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000007.12 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000007.12, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000007.12, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000007.12 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      9	seqId=NC_000008.9,name=8,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 35,813,113<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000008.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 35,813,113 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000008.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+      VResolverQuery(NC_000008.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000008.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000008.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+      VResolverQuery(NC_000008.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000008.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000008.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000008.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000008.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     10	seqId=NC_000009.10,name=9,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 30,248,732<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000009.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 30,248,732 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000009.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+      VResolverQuery(NC_000009.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000009.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000009.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+      <Time time="201 ms"/>
+    </Timer>
+      VResolverQuery(NC_000009.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000009.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000009.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000009.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000009.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     11	seqId=NC_000010.9,name=10,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 33,081,323<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000010.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 33,081,323 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000010.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+      VResolverQuery(NC_000010.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000010.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000010.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+      <Time time="194 ms"/>
+    </Timer>
+      VResolverQuery(NC_000010.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000010.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000010.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000010.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000010.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+      <Time time="197 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     12	seqId=NC_000011.8,name=11,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 32,929,324<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000011.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 32,929,324 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000011.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+      VResolverQuery(NC_000011.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000011.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000011.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000011.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000011.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000011.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000011.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000011.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+      <Time time="193 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     13	seqId=NC_000012.10,name=12,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 32,722,337<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000012.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 32,722,337 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000012.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+      VResolverQuery(NC_000012.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000012.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000012.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+      VResolverQuery(NC_000012.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000012.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000012.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000012.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000012.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+      <Time time="262 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     14	seqId=NC_000013.9,name=13,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 24,003,059<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000013.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 24,003,059 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000013.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+      VResolverQuery(NC_000013.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000013.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000013.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+      <Time time="560 ms"/>
+    </Timer>
+      VResolverQuery(NC_000013.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000013.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000013.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000013.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000013.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     15	seqId=NC_000014.7,name=14,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 22,167,656<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000014.7">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 22,167,656 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000014.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+      VResolverQuery(NC_000014.7, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000014.7, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000014.7, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000014.7, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000014.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000014.7, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000014.7, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000014.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     16	seqId=NC_000015.8,name=15,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 20,450,546<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000015.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 20,450,546 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000015.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+      VResolverQuery(NC_000015.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000015.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000015.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+      <Time time="208 ms"/>
+    </Timer>
+      VResolverQuery(NC_000015.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000015.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000015.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000015.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000015.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     17	seqId=NC_000016.8,name=16,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 19,819,232<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000016.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 19,819,232 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000016.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+      VResolverQuery(NC_000016.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000016.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000016.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+      VResolverQuery(NC_000016.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000016.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000016.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000016.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000016.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+      <Time time="218 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     18	seqId=NC_000017.9,name=17,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 19,561,845<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000017.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 19,561,845 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000017.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+      VResolverQuery(NC_000017.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000017.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000017.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+      <Time time="3241 ms"/>
+    </Timer>
+      VResolverQuery(NC_000017.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000017.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000017.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000017.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000017.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+      <Time time="200 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     19	seqId=NC_000018.8,name=18,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 18,754,593<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000018.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 18,754,593 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000018.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+      VResolverQuery(NC_000018.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000018.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000018.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+      VResolverQuery(NC_000018.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000018.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000018.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000018.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000018.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+      <Time time="201 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     20	seqId=NC_000019.8,name=19,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 14,021,361<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000019.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 14,021,361 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000019.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+      VResolverQuery(NC_000019.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000019.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000019.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+      VResolverQuery(NC_000019.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000019.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000019.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000019.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000019.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+      <Time time="204 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     21	seqId=NC_000020.9,name=20,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 14,960,987<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000020.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 14,960,987 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000020.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+      VResolverQuery(NC_000020.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000020.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000020.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000020.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000020.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000020.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000020.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000020.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     22	seqId=NC_000021.7,name=21,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 8,597,451<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000021.7">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 8,597,451 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000021.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+      VResolverQuery(NC_000021.7, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000021.7, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000021.7, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+      <Time time="195 ms"/>
+    </Timer>
+      VResolverQuery(NC_000021.7, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000021.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000021.7, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000021.7, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000021.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     23	seqId=NC_000022.9,name=22,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 8,787,281<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000022.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 8,787,281 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000022.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+      VResolverQuery(NC_000022.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000022.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000022.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+      VResolverQuery(NC_000022.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000022.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000022.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000022.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000022.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     24	seqId=NC_000023.9,name=X,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 37,950,729<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_000023.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 37,950,729 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000023.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+      VResolverQuery(NC_000023.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000023.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000023.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+      <Time time="207 ms"/>
+    </Timer>
+      VResolverQuery(NC_000023.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000023.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000023.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000023.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000023.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     25	seqId=NC_001807.4,name=M,circular=true,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_001807.4 25,231<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_001807.4 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_001807.4">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_001807.4 25,231 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_001807.4 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+
+      VResolverQuery(NC_001807.4, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_001807.4, (null), local, remote=NULL, cache=NULL)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+      VResolverQuery(NC_001807.4, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_001807.4 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+
+      <Time time="195 ms"/>
+    </Timer>
+      VResolverQuery(NC_001807.4, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_001807.4, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+      VResolverQuery(NC_001807.4, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_001807.4 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+</Dependencies>
+<Dependencies>
+VDBDependenciesCount(all)=25
+<Dependency>
+      1	seqId=GPC_000000394.1,name=5,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 44,553,876<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="GPC_000000394.1">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 44,553,876 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000394.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+      VResolverQuery(GPC_000000394.1, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000394.1, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000394.1, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000394.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+      <Time time="200 ms"/>
+    </Timer>
+      VResolverQuery(GPC_000000394.1, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000394.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000394.1, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000394.1, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000394.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000394.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000394.1.cache NotFound - NotFound <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      2	seqId=GPC_000000395.1,name=Y,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 5,813,303<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+<Resolve>
+  <Query name="GPC_000000395.1">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 5,813,303 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000395.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+      VResolverQuery(GPC_000000395.1, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000395.1, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000395.1, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/GPC_000000395.1 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(GPC_000000395.1, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000395.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+    <Timer>
+      VResolverQuery(GPC_000000395.1, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(GPC_000000395.1, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/GPC_000000395.1 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/GPC_000000395.1 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/GPC_000000395.1.cache File 5,813,321 Table <br/>
+
+      <Time time="194 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      3	seqId=NC_000001.9,name=1,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 56,567,632<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+<Resolve>
+  <Query name="NC_000001.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 56,567,632 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000001.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+      VResolverQuery(NC_000001.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000001.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000001.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000001.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+      <Time time="200 ms"/>
+    </Timer>
+      VResolverQuery(NC_000001.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000001.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000001.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000001.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000001.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000001.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000001.9.cache File 56,567,698 Table <br/>
+
+      <Time time="205 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      4	seqId=NC_000002.10,name=2,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 59,697,822<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+<Resolve>
+  <Query name="NC_000002.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 59,697,822 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000002.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+      VResolverQuery(NC_000002.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000002.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000002.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000002.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+      <Time time="217 ms"/>
+    </Timer>
+      VResolverQuery(NC_000002.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000002.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000002.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000002.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000002.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000002.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000002.10.cache File 59,697,891 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      5	seqId=NC_000003.10,name=3,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 48,873,426<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+<Resolve>
+  <Query name="NC_000003.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 48,873,426 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000003.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+      VResolverQuery(NC_000003.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000003.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000003.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000003.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000003.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000003.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000003.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000003.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000003.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000003.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000003.10.cache File 48,873,485 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      6	seqId=NC_000004.10,name=4,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 47,038,034<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+<Resolve>
+  <Query name="NC_000004.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 47,038,034 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000004.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+      VResolverQuery(NC_000004.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000004.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000004.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000004.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+      <Time time="195 ms"/>
+    </Timer>
+      VResolverQuery(NC_000004.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000004.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000004.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000004.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000004.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000004.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000004.10.cache File 47,038,091 Table <br/>
+
+      <Time time="204 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      7	seqId=NC_000006.10,name=6,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 41,999,521<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+<Resolve>
+  <Query name="NC_000006.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 41,999,521 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000006.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+      VResolverQuery(NC_000006.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000006.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000006.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000006.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+      VResolverQuery(NC_000006.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000006.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000006.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000006.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000006.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000006.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000006.10.cache File 41,999,574 Table <br/>
+
+      <Time time="203 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      8	seqId=NC_000007.12,name=7,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 38,915,617<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+<Resolve>
+  <Query name="NC_000007.12">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 38,915,617 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000007.12 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+      VResolverQuery(NC_000007.12, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000007.12, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000007.12, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000007.12 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+      <Time time="197 ms"/>
+    </Timer>
+      VResolverQuery(NC_000007.12, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000007.12 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000007.12, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000007.12, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000007.12 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000007.12 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000007.12.cache File 38,915,667 Table <br/>
+
+      <Time time="195 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+      9	seqId=NC_000008.9,name=8,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 35,813,113<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+<Resolve>
+  <Query name="NC_000008.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 35,813,113 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000008.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+      VResolverQuery(NC_000008.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000008.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000008.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000008.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000008.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000008.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000008.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000008.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000008.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000008.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000008.9.cache File 35,813,160 Table <br/>
+
+      <Time time="216 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     10	seqId=NC_000009.10,name=9,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 30,248,732<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+<Resolve>
+  <Query name="NC_000009.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 30,248,732 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000009.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+      VResolverQuery(NC_000009.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000009.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000009.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000009.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000009.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000009.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000009.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000009.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000009.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000009.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000009.10.cache File 30,248,773 Table <br/>
+
+      <Time time="215 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     11	seqId=NC_000010.9,name=10,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 33,081,323<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+<Resolve>
+  <Query name="NC_000010.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 33,081,323 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000010.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+      VResolverQuery(NC_000010.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000010.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000010.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000010.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+      VResolverQuery(NC_000010.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000010.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000010.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000010.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000010.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000010.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000010.9.cache File 33,081,367 Table <br/>
+
+      <Time time="211 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     12	seqId=NC_000011.8,name=11,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 32,929,324<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+<Resolve>
+  <Query name="NC_000011.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 32,929,324 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000011.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+      VResolverQuery(NC_000011.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000011.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000011.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000011.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+      VResolverQuery(NC_000011.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000011.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000011.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000011.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000011.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000011.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000011.8.cache File 32,929,368 Table <br/>
+
+      <Time time="200 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     13	seqId=NC_000012.10,name=12,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 32,722,337<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+<Resolve>
+  <Query name="NC_000012.10">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 32,722,337 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000012.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+      VResolverQuery(NC_000012.10, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000012.10, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000012.10, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000012.10 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+      <Time time="200 ms"/>
+    </Timer>
+      VResolverQuery(NC_000012.10, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000012.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000012.10, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000012.10, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000012.10 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000012.10 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000012.10.cache File 32,722,381 Table <br/>
+
+      <Time time="197 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     14	seqId=NC_000013.9,name=13,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 24,003,059<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+<Resolve>
+  <Query name="NC_000013.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 24,003,059 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000013.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+      VResolverQuery(NC_000013.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000013.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000013.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000013.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+      <Time time="205 ms"/>
+    </Timer>
+      VResolverQuery(NC_000013.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000013.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000013.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000013.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000013.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000013.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000013.9.cache File 24,003,094 Table <br/>
+
+      <Time time="210 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     15	seqId=NC_000014.7,name=14,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 22,167,656<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+<Resolve>
+  <Query name="NC_000014.7">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 22,167,656 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000014.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+      VResolverQuery(NC_000014.7, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000014.7, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000014.7, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000014.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+      <Time time="200 ms"/>
+    </Timer>
+      VResolverQuery(NC_000014.7, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000014.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000014.7, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000014.7, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000014.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000014.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000014.7.cache File 22,167,690 Table <br/>
+
+      <Time time="201 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     16	seqId=NC_000015.8,name=15,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 20,450,546<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+<Resolve>
+  <Query name="NC_000015.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 20,450,546 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000015.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+      VResolverQuery(NC_000015.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000015.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000015.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000015.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+      VResolverQuery(NC_000015.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000015.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000015.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000015.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000015.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000015.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000015.8.cache File 20,450,578 Table <br/>
+
+      <Time time="201 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     17	seqId=NC_000016.8,name=16,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 19,819,232<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+<Resolve>
+  <Query name="NC_000016.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 19,819,232 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000016.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+      VResolverQuery(NC_000016.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000016.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000016.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000016.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+      <Time time="210 ms"/>
+    </Timer>
+      VResolverQuery(NC_000016.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000016.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000016.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000016.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000016.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000016.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000016.8.cache File 19,819,263 Table <br/>
+
+      <Time time="202 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     18	seqId=NC_000017.9,name=17,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 19,561,845<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+<Resolve>
+  <Query name="NC_000017.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 19,561,845 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000017.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+      VResolverQuery(NC_000017.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000017.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000017.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000017.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000017.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000017.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000017.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000017.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000017.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000017.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000017.9.cache File 19,561,876 Table <br/>
+
+      <Time time="196 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     19	seqId=NC_000018.8,name=18,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 18,754,593<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+<Resolve>
+  <Query name="NC_000018.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 18,754,593 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000018.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+      VResolverQuery(NC_000018.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000018.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000018.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000018.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000018.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000018.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000018.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000018.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000018.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000018.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000018.8.cache File 18,754,623 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     20	seqId=NC_000019.8,name=19,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 14,021,361<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+<Resolve>
+  <Query name="NC_000019.8">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 14,021,361 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000019.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+      VResolverQuery(NC_000019.8, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000019.8, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000019.8, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000019.8 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+      <Time time="205 ms"/>
+    </Timer>
+      VResolverQuery(NC_000019.8, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000019.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000019.8, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000019.8, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000019.8 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000019.8 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000019.8.cache File 14,021,387 Table <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     21	seqId=NC_000020.9,name=20,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 14,960,987<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+<Resolve>
+  <Query name="NC_000020.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 14,960,987 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000020.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+      VResolverQuery(NC_000020.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000020.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000020.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000020.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+      <Time time="197 ms"/>
+    </Timer>
+      VResolverQuery(NC_000020.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000020.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000020.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000020.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000020.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000020.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000020.9.cache File 14,961,014 Table <br/>
+
+      <Time time="195 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     22	seqId=NC_000021.7,name=21,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 8,597,451<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+<Resolve>
+  <Query name="NC_000021.7">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 8,597,451 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000021.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+      VResolverQuery(NC_000021.7, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000021.7, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000021.7, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000021.7 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+      <Time time="211 ms"/>
+    </Timer>
+      VResolverQuery(NC_000021.7, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000021.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000021.7, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000021.7, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000021.7 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000021.7 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000021.7.cache File 8,597,472 Table <br/>
+
+      <Time time="203 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     23	seqId=NC_000022.9,name=22,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 8,787,281<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+<Resolve>
+  <Query name="NC_000022.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 8,787,281 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000022.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+      VResolverQuery(NC_000022.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000022.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000022.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000022.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+      <Time time="198 ms"/>
+    </Timer>
+      VResolverQuery(NC_000022.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000022.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000022.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000022.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000022.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000022.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000022.9.cache File 8,787,302 Table <br/>
+
+      <Time time="228 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     24	seqId=NC_000023.9,name=X,circular=false,type=Table,local=remote,<br/>
+	pathLocal=notFound,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 37,950,729<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+<Resolve>
+  <Query name="NC_000023.9">
+      Local:		  not found<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 37,950,729 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000023.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+      VResolverQuery(NC_000023.9, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000023.9, (null), local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000023.9, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_000023.9 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+      <Time time="214 ms"/>
+    </Timer>
+      VResolverQuery(NC_000023.9, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000023.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_000023.9, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcVFS,rcTree,rcResolving,rcName,rcNotFound)<br/>
+
+      VResolverQuery(NC_000023.9, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_000023.9 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_000023.9 NotFound - NotFound <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_000023.9.cache File 37,950,778 Table <br/>
+
+      <Time time="215 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+<Dependency>
+     25	seqId=NC_001807.4,name=M,circular=true,type=Table,local=remote,<br/>
+	pathLocal=/home/kk2252/ncbi/public/refseq/NC_001807.4,<br/>
+	pathRemote: https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_001807.4 25,231<br/>
+	pathCache: /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+	pathCache.cache: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+<Resolve>
+  <Query name="NC_001807.4">
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_001807.4 25,231 Table <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_001807.4 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+
+      VResolverQuery(NC_001807.4, (null), local, remote, cache)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_001807.4, (null), local, remote=NULL, cache=NULL)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+      VResolverQuery(NC_001807.4, (null), local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote HttpFasp:	  https://sra-download.ncbi.nlm.nih.gov/traces/refseq/NC_001807.4 <br/>
+      Cache HttpFasp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache HttpFasp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+
+      <Time time="199 ms"/>
+    </Timer>
+      VResolverQuery(NC_001807.4, FaspHttpHttps, local, remote, cache)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+    <Timer>
+      VResolverQuery(NC_001807.4, FaspHttpHttps, local, remote=NULL, cache=NULL)= RC(rcNoErr)<br/>
+      Local:		  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+
+      VResolverQuery(NC_001807.4, FaspHttpHttps, local=NULL, remote, cache)= RC(rcNoErr)<br/>
+      Remote FaspHttp:	  fasp://dbtest@sra-download.ncbi.nlm.nih.gov:data/sracloud/traces/refseq/NC_001807.4 <br/>
+      Cache FaspHttp:	  /home/kk2252/ncbi/public/refseq/NC_001807.4 File 25,231 Table <br/>
+      Cache.cache FaspHttp: /home/kk2252/ncbi/public/refseq/NC_001807.4.cache NotFound - NotFound <br/>
+
+      <Time time="219 ms"/>
+    </Timer>
+  </Query>
+</Resolve>
+</Dependency>
+</Dependencies>
+</Object>
+<Report>
+ <Run>
+  <Date>
+   <Start value="Thu Mar 28 2019 12:57:43 PM"/>
+   <End value="Thu Mar 28 2019 12:59:54 PM"/>
+  </Date>
+  <Home name="HOME" value="/home/kk2252"/>
+  <Cwd>/home/kk2252/personal_proj/meta_air/data</Cwd>
+  <CommandLine argc="2">
+   <Arg index="0" value="test-sra"/>
+   <Arg index="1" value="SRR390728"/>
+  </CommandLine>
+  <Result rc="RC(rcNoErr)"/>
+  <User admin="false"/>
+ </Run>
+ <Configuration>
+  <Files count="3">
+   <File name="/n/apps/CentOS7/bin/ncbi/certs.kfg"/>
+   <File name="/n/apps/CentOS7/bin/ncbi/default.kfg"/>
+   <File name="/n/apps/CentOS7/bin/ncbi/vdb-copy.kfg"/>
+  </Files>
+  <refseq state="not found"/>
+  <krypto state="pwfile: not found"/>
+  <sra state="not found"/>
+  <Config>
+    <APPNAME>"test-sra"</APPNAME>
+    <APPPATH>"/home/kk2252/personal_proj/meta_air/data/"</APPPATH>
+    <AWS></AWS>
+    <BUILD>"RELEASE"</BUILD>
+    <HOME>"/home/kk2252"</HOME>
+    <HOST></HOST>
+    <NCBI_HOME>"/home/kk2252/.ncbi"</NCBI_HOME>
+    <NCBI_SETTINGS>"/home/kk2252/.ncbi/user-settings.mkfg"</NCBI_SETTINGS>
+    <OS>"linux"</OS>
+    <PWD>"/home/kk2252/personal_proj/meta_air/data"</PWD>
+    <USER>"kk2252"</USER>
+    <VDBCOPY><!-- skipped --></VDBCOPY>
+    <VDB_CONFIG></VDB_CONFIG>
+    <VDB_ROOT></VDB_ROOT>
+    <config>
+      <default>"true"</default>
+    </config>
+    <kfg>
+      <arch>
+        <bits>"64"</bits>
+        <name>"hickory.sgc.loc"</name>
+      </arch>
+      <dir>"/n/apps/CentOS7/bin/ncbi"</dir>
+      <name>"default.kfg"</name>
+    </kfg>
+    <repository>
+      <remote>
+        <main>
+          <CGI>
+            <resolver-cgi>"https://www.ncbi.nlm.nih.gov/Traces/names/names.cgi"</resolver-cgi>
+          </CGI>
+        </main>
+        <protected>
+          <CGI>
+            <resolver-cgi>"https://www.ncbi.nlm.nih.gov/Traces/names/names.cgi"</resolver-cgi>
+          </CGI>
+        </protected>
+      </remote>
+      <user>
+        <main>
+          <public>
+            <apps>
+              <file>
+                <volumes>
+                  <flat>"files"</flat>
+                </volumes>
+              </file>
+              <nakmer>
+                <volumes>
+                  <nakmerFlat>"nannot"</nakmerFlat>
+                </volumes>
+              </nakmer>
+              <nannot>
+                <volumes>
+                  <nannotFlat>"nannot"</nannotFlat>
+                </volumes>
+              </nannot>
+              <refseq>
+                <volumes>
+                  <refseq>"refseq"</refseq>
+                </volumes>
+              </refseq>
+              <sra>
+                <volumes>
+                  <sraFlat>"sra"</sraFlat>
+                </volumes>
+              </sra>
+              <wgs>
+                <volumes>
+                  <wgsFlat>"wgs"</wgsFlat>
+                </volumes>
+              </wgs>
+            </apps>
+            <root>"/home/kk2252/ncbi/public"</root>
+          </public>
+        </main>
+      </user>
+    </repository>
+    <tls>
+      <ca.crt>
+        <ncbi1>"-----BEGIN CERTIFICATE-----\x0D\x0AMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\x0D\x0AMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\x0D\x0Ad3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\x0D\x0AQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\x0D\x0AMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\x0D\x0Ab20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\x0D\x0A9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\x0D\x0ACSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\x0D\x0Anh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\x0D\x0A43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\x0D\x0AT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\x0D\x0AgdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\x0D\x0ABgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\x0D\x0ATLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\x0D\x0ADQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\x0D\x0AhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\x0D\x0A06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\x0D\x0APnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\x0D\x0AYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\x0D\x0ACAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4wOTAeBggrBgEFBQcD\x0D\x0ABAYIKwYBBQUHAwEGCCsGAQUFBwMDDBdEaWdpQ2VydCBHbG9iYWwgUm9vdCBDQQ==\x0D\x0A-----END CERTIFICATE-----\x0D\x0A"</ncbi1>
+        <ncbi2>"-----BEGIN CERTIFICATE-----\x0D\x0AMIIDxTCCAq2gAwIBAgIQAqxcJmoLQJuPC3nyrkYldzANBgkqhkiG9w0BAQUFADBs\x0D\x0AMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\x0D\x0Ad3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j\x0D\x0AZSBFViBSb290IENBMB4XDTA2MTExMDAwMDAwMFoXDTMxMTExMDAwMDAwMFowbDEL\x0D\x0AMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3\x0D\x0ALmRpZ2ljZXJ0LmNvbTErMCkGA1UEAxMiRGlnaUNlcnQgSGlnaCBBc3N1cmFuY2Ug\x0D\x0ARVYgUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMbM5XPm\x0D\x0A+9S75S0tMqbf5YE/yc0lSbZxKsPVlDRnogocsF9ppkCxxLeyj9CYpKlBWTrT3JTW\x0D\x0APNt0OKRKzE0lgvdKpVMSOO7zSW1xkX5jtqumX8OkhPhPYlG++MXs2ziS4wblCJEM\x0D\x0AxChBVfvLWokVfnHoNb9Ncgk9vjo4UFt3MRuNs8ckRZqnrG0AFFoEt7oT61EKmEFB\x0D\x0AIk5lYYeBQVCmeVyJ3hlKV9Uu5l0cUyx+mM0aBhakaHPQNAQTXKFx01p8VdteZOE3\x0D\x0AhzBWBOURtCmAEvF5OYiiAhF8J2a3iLd48soKqDirCmTCv2ZdlYTBoSUeh10aUAsg\x0D\x0AEsxBu24LUTi4S8sCAwEAAaNjMGEwDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQF\x0D\x0AMAMBAf8wHQYDVR0OBBYEFLE+w2kD+L9HAdSYJhoIAu9jZCvDMB8GA1UdIwQYMBaA\x0D\x0AFLE+w2kD+L9HAdSYJhoIAu9jZCvDMA0GCSqGSIb3DQEBBQUAA4IBAQAcGgaX3Nec\x0D\x0AnzyIZgYIVyHbIUf4KmeqvxgydkAQV8GK83rZEWWONfqe/EW1ntlMMUu4kehDLI6z\x0D\x0AeM7b41N5cdblIZQB2lWHmiRk9opmzN6cN82oNLFpmyPInngiK3BD41VHMWEZ71jF\x0D\x0AhS9OMPagMRYjyOfiZRYzy78aG6A9+MpeizGLYAiJLQwGXFK3xPkKmNEVX58Svnw2\x0D\x0AYzi9RKR/5CYrCsSXaQ3pjOLAEFe4yHYSkVXySGnYvCoCWw9E1CAx2/S6cCZdkGCe\x0D\x0AvEsXCS+0yx5DaMkHJ8HSXPfqIbloEpw8nL+e/IBcm2PN7EeqJSdnoDfzAIJ9VNep\x0D\x0A+OkuE6N36B9KMEQwHgYIKwYBBQUHAwQGCCsGAQUFBwMBBggrBgEFBQcDAwwiRGln\x0D\x0AaUNlcnQgSGlnaCBBc3N1cmFuY2UgRVYgUm9vdCBDQQ==\x0D\x0A-----END CERTIFICATE-----\x0D\x0A"</ncbi2>
+      </ca.crt>
+    </tls>
+    <tools>
+      <ascp>
+        <max_rate>"1000m"</max_rate>
+      </ascp>
+    </tools>
+    <vdb>
+      <lib>
+        <paths>
+          <kfg>"/n/apps/CentOS7/bin"</kfg>
+        </paths>
+      </lib>
+    </vdb>
+  </Config>
+  <RemoteAccess available="true"/>
+  <CurrentProtectedRepository found="false"/>
+ </Configuration>
+ <Object path="SRR390728" type="unknown">
+ </Object>
+ <SOFTWARE>
+  <VDBLibrary vers="2.7.22"/>
+  <Build static="true">
+   <Module name=""/>
+  </Build>
+  <Tool date="Dec 20 2016" name="test-sra" vers="2.8.1">
+   <Binary path="/n/apps/CentOS7/bin/test-sra" type="alias" md5="dfae48e1929ac035c6859774aed8a827">
+    <Alias resolved="../install/sratoolkit-2.8.1/bin/test-sra">
+     <Alias resolved="../install/sratoolkit-2.8.1/bin/test-sra.2">
+      <Alias resolved="../install/sratoolkit-2.8.1/bin/test-sra.2.8.1"/>
+     </Alias>
+    </Alias>
+   </Binary>
+  </Tool>
+ </SOFTWARE>
+ <Env>
+ </Env>
+</Report>
+
+</Test-sra>
